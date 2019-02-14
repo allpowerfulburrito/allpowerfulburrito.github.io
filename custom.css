@@ -1,0 +1,108 @@
+body
+{
+	font-family: Verdana;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+}
+
+#wrap
+{
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img
+{
+	width: 30%;
+}
+
+header
+{
+	padding: 10px;
+	text-align: center;
+	background-color: red;
+	background-image: url(colony.png);
+	background-size: 50%;
+}
+
+nav
+{
+	background-color: darkblue;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+nav li
+{
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+nav a
+{
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover
+{
+	color: white;
+	background-color: black;
+}
+
+section
+{
+	padding: 10px;
+	background-color: white;
+	overflow: auto;
+}
+
+.bgpic
+{
+	width: 50%;
+	float: right;
+}
+
+.logo
+{
+	width: 10%;
+	position: relative;
+	right: 600px;
+}
+
+.button
+{
+	background-color: darkblue;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-family: Georgia;
+	border-radius: 8px;
+	margin: 15px 0px;
+	display: inline-block;
+}
+
+a.button:hover 
+{
+	color: white;
+	background-color: black;
+}
+
+footer
+{
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
