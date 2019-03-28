@@ -1,0 +1,21 @@
+/*Do Not Modify*/
+html, body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrap 
+{
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*Comment out later
+header, nav, section, footer 
+{
+	background-color: #dddddd;
+	height: 100px;
+	margin: 20px;
+}*/
+
