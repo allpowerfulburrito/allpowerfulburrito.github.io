@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Set Up</title>
+		
+		<!-- Attach our CSS -->
+	  	<link rel="stylesheet" href="reveal/reveal.css">	
+	  	
+		<!-- Attach necessary scripts -->
+		<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="reveal/jquery.reveal.js"></script>
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<link href="setUp.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="nav">
+					<ul>
+						<li><img src="arma3.png" class="headpic"></img></li>
+						<li><a href="finalProj.html">Home</a></li>
+						<li><a href="uiBasics.html">UI Basics</a></li>
+						<li><a href="setUp.html">Set Up</a></li>
+						<li><a href="scripting.html">Scripting</a></li>
+						<li><a href="limitations.html">Limitations</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div id="feature">
+					<h1>Introducing Set Up</h1>
+				</div>
+				<div class="article column1">
+					<h2>Choosing Locations</h2>
+					<p>One of the most important parts of setting up a scenario is choosing the location. First starting at the map level an over all theme needs to be established. Is it going to be snowy, dry, tropical, on an island, a desert? 
+					Next the type of scenario needs to be chosen and this can both effect the map choice and location of the mission. Some maps have wide open areas good for large scale action and long range engagements while others are denser with close urban or jungle fighting. 
+					It's a good idea to choose an area that is both visually appealing and interesting to fight in. That's why some of the most popular missions are in urban areas. They have lots of interesting features and terrain, unpredictable encounters, and intense action.</p>
+				</div>
+				<div class="article column2">
+					<h2>Building Sets</h2>
+					<p>The next step in creating a mission is decorating it with set pieces to help sell whatever scenario is being created. Props and set pieces help to immerse the player into the game making it feel like the situation is actually plausible. 
+					For example if the mission is about a convoy ambush adding wrecked vehicles and having the player get out of a vehicle would be a good start. Props are practical too because they give the player and AI something to take cover behind and make the mission more visually interesting to the player. 
+					However do not over do it, visually interesting can easily become confusing when there are so many props that the player becomes confused or disorientated ruining the experience.</p>
+					<section>
+					<div class="slider-wrapper theme-default">
+						<div id="slider" class="nivoSlider">
+							<img src="set1.jpg" data-thumb="set1.jpg" alt="" />
+							<img src="set2.jpg" data-thumb="set2.jpg" alt="" />
+							<img src="set3.jpg" data-thumb="set3.jpg" alt="" />
+							<img src="set4.jpg" data-thumb="set4.jpg" alt="" />
+						</div>
+					</div>
+					</section>
+				</div>
+				<div class="article column3">
+					<h2>Placing Units</h2>
+					<p>Finally the mission needs to be populated and this is where adding hostile and friendly units to the scenario comes in. Like the props this is something that is easy to over do and make the mission almost unbeatable.  
+					Overpopulating a mission with hostile AI is very easy to do, it is common to feel like a mission won't be difficult from the editing screen until it is played. Due to the rules and physics that run ARMA even a small group of enemies with poor AI can be challenging for players under the right conditions. Because of the way damage works in ARMA a player can one shot an enemy but the player can also be one shot by that enemy, all it takes is one lucky bullet.
+					A good rule for populating a mission with a single player is four units is a fair fight, six is challenging, eight is hard, and ten is impossible. There is flexibility to this depending on the scenario, but in general a player should never face more than eight enemies at once. 
+					Finally unless it's a big coop mission do not have lots of friendly AI, they take action away from the player and ARMA's AI is at it's best annoying and broken at it's worst.</p>
+				</div>
+			</div>
+			<div id="footer">
+				<p>&copy; Copyright 2018</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+		});
+		</script>
+	</body>
+</html>

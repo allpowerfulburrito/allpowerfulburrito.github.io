@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UI Basics</title>
+		
+		<!-- Attach our CSS -->
+	  	<link rel="stylesheet" href="reveal/reveal.css">	
+	  	
+		<!-- Attach necessary scripts -->
+		<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="reveal/jquery.reveal.js"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="nav">
+					<ul>
+						<li><img src="arma3.png" class="headpic"></img></li>
+						<li><a href="finalProj.html">Home</a></li>
+						<li><a href="uiBasics.html">UI Basics</a></li>
+						<li><a href="setUp.html">Set Up</a></li>
+						<li><a href="scripting.html">Scripting</a></li>
+						<li><a href="limitations.html">Limitations</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div id="feature">
+					<h1>Introducing the UI</h1>
+				</div>
+				<div id="window">
+					<img src="editor.jpg" class="editor"></img>
+				</div>
+				<div class="article column1">
+					<h2>Top Bar</h2>
+					<img src="top.jpg" class="top"></img>
+					<p>In this top bar are all of the tools that can be used set up a new scenario or manipulate the environment of an existing one. From here scenarios can also be saved and published to the Steam Workshop. 
+					Scenario, Edit, and View have the tools to set up a new workspace and to show how it will look to the player. Tools and Settings allow manipulation of the environment itself, from changing the weather to adding in scripting for cutscenes and changing some of the games logic.</p>
+				</div>
+				<div class="article column2">
+					<img src="unit.jpg" class="unit"></img>
+					<img src="asset.jpg" class="asset"></img>
+					<h2>Unit Bar</h2>
+					<p>On the left of the editor window is the Unit Bar. This screen tracks all of the units and assets that have been placed into the map. When units are placed near each other and are part of the same faction they automatically group together to become a squad. 
+					This makes it easier(in some cases) to add scripting to an entire squad instead of individual units. This screen also tracks the scripting, movement, and command orders given to each unit making it much easier to modify on the fly and see the intended chain of events. 
+					Right clicking on a unit in this screen will also bring up its attribute page which is very useful for customizing that unit. Finally this screen also tracks the inanimate objects that have been placed into the workspace, its more for accounting purposes than anything else but its still a nice feature.</p>
+				</div>
+				<div class="article column3">
+					<h2>Asset Bar</h2>
+					<p>On the right of the editor window is the Asset Bar. Most of the set up and scripting will come from here when creating a scenario. The Asset Bar contains all of the spawnable assets and scripting commands available to the creator, including all vanilla and modded(if the creator has them) features. 
+					The lone figure icon is the individual unit spawner, most useful for adding the player character, important NPCs, or creating custom squads. It is also the place to spawn set pieces and props. Next the three figure icon is the squad spawner, it allows entire premade squads to be placed into the scenario with little effort. 
+					It is very useful in campaigns with lots of enemies that the player wont necessarily get a close look at or just need to be cannon fodder. The flag icon is the waypoint tool, it enables the creator to place save points, a respawn location, safe zone, and other logistical parts of a mission. 
+					Finally there is the footprint icon, this is where all of the scripting magic happens. It is the scripting tool and after the unit/prop tool probably the second most important part of the editor. The scripting tool allows the creator to give the player and the AI waypoints, objectives, triggers, move orders, and much more.</p>
+				</div>
+				<div class="article column4">
+					<h2>Unit Attributes</h2>
+					<p>This is the menu that comes up when right clicking on a unit, vehicle, or certain props. From this menu just about anything can be done to the asset that was selected. If it was a unit or vehicle a creator can change everything about it from its appearance to what parts are damaged and it's behavior. There is even a window specifically for manipulating the AI of a unit through scripts. 
+					For individual soldiers rank, skill level, chance of fleeing, and starting stance can all be set along with a unique ID so the mission scripts can directly influence that specific unit. With vehicles the options are much more limited because there is no AI attached to them and a lack of visual customization. A creator can modify a vehicles damage states, inventory, appearance to a limited extent, how much fuel and ammo it has, and who can use it.</p>
+					<img src="attribute.jpg" class="att"></img>
+				</div>
+			</div>
+			<div id="footer">
+				<p>&copy; Copyright 2018</p>
+			</div>
+		</div>
+	</body>
+</html>

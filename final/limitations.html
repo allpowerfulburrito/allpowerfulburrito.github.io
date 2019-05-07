@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Limitations</title>
+		
+		<!-- Attach our CSS -->
+	  	<link rel="stylesheet" href="reveal/reveal.css">	
+	  	
+		<!-- Attach necessary scripts -->
+		<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="reveal/jquery.reveal.js"></script>
+		<link href="limit.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="nav">
+					<ul>
+						<li><img src="arma3.png" class="headpic"></img></li>
+						<li><a href="finalProj.html">Home</a></li>
+						<li><a href="uiBasics.html">UI Basics</a></li>
+						<li><a href="setUp.html">Set Up</a></li>
+						<li><a href="scripting.html">Scripting</a></li>
+						<li><a href="limitations.html">Limitations</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div id="feature">
+					<h1>Talking About Limitations</h1>
+				</div>
+				<div class="article column1">
+					<h2>Dumb AI</h2>
+					<p>Now onto a more fun subject, engine limitations. One of the weakest parts of ARMA is it's individual unit AI. It is incredibly dumb and very limited in it's decision making skills. AI in ARMA does not know how to use the inside of a house for cover unless it is nailed to the floor with scripting commands and even then it will just lay on the floor and rotate in place. 
+					It is a little better outside where it knows when to kneel and lay down to make itself harder to hit but it still wont take cover behind obvious places like cars, rocks, and walls. Often at close range(within 100m) the AI will just stand in the open and shoot at the player making them very easy to hit. 
+					Pathing is another big issue with AI pretty much needing a yellow brick road to it's destination or it will flat out refuse to move when given a move order. Most of these AI "features" aren't too much of a problem outside of mission making due to how challenging the rules of ARMA can be to players. Enough AI can be a significant challenge to even a large group of experienced players. 
+					It is only a problem in small scale operations where the flaws really shine.</p>
+				</div>
+				<div class="article column2">
+					<h2>Questionable Physics</h2>
+					<p>ARMA is a very complex game with deep gameplay mechanics particularly with its ballistics simulation. The engine calculates everything including bullet drop, penetration, and ricochet chance/direction on a failure to penetrate or miss. There are even complex models for flight and aerodynamics for planes and helicopters. 
+					All of this is amazingly cool when it works. The problem with super complicated physics in a game is that the engine starts to become quirky. The most obvious area where physics start getting weird is driving on the ground, the vehicles all feel very floaty and driving off road at any kind of speed is being put at the mercy of the fates. 
+					When building a mission it is very important to check for clipping assets because on mission start assets that clip can and will vibrate, fly into the atmosphere, explode, or all of the above. With flying vehicles it is important to remember that when they are destroyed in the air it is entirely unpredictable what they will do. Some crash normally but others will freeze then drop like a rock or freeze then keep going with the same(or more momentum) that they had before. </p>
+				</div>
+				<div class="article column3">
+					<h2>Engine Stability</h2>
+					<p>This is another by product of how advanced the simulation engine is. The ARMA series is notorious for poor optimization, huge CPU loads, crashing servers, and just overall instability. It is definitely better than it was but crashed are to be expected and random non fatal error messages and glitches are common. To fans of the series this is just an endearing feature of the games and usually isn't bad enough to affect enjoyment. 
+					However when mods are added to ARMA they put more load on the engine and lower the stability of the game even further. Known issues are missing weapon sounds with weapon mods, hard crashes with mods that change game logic, and heavy performance hits with visual and map mods. The more mods that have been loaded into ARMA the less stable the game becomes. Over 70 mods were used in making that cinematic and by the time shooting the scenes were done the game was actively destabilizing. The following video highlights some of these nicely.</p>
+					<div class='embed-container'><iframe src='https://www.youtube.com/embed/0ixw7WqsGKU' frameborder='0' allowfullscreen></iframe></div>
+				</div>
+			</div>
+			<div id="footer">
+				<p>&copy; Copyright 2018</p>
+			</div>
+		</div>
+	</body>
+</html>
